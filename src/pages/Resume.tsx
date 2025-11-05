@@ -2,9 +2,9 @@ function Resume() {
   return (
     <div className="max-w-3xl mx-auto p-8">
       <h1 className="text-4xl font-bold mb-8">Resume</h1>
-      <p className="mb-4">I am a passionate professional with expertise in modern web development and a strong focus on creating user-friendly applications.</p>
-      <p className="mb-4">My experience includes working with cutting-edge technologies and frameworks to deliver high-quality solutions.</p>
-      <p className="mb-4">I am committed to continuous learning and staying up-to-date with the latest industry trends and best practices.</p>
+      <p className="mb-4">I am a businessman and entrepreneur known for my leadership of Tesla, SpaceX, and X (formerly Twitter).</p>
+      <p className="mb-4">I co-founded Zip2 in 1995, an online business directory, which was later sold to Compaq. I then co-founded X.com, which merged with Confinity to form PayPal and was subsequently acquired by eBay.</p>
+      <p className="mb-4">In 2002, I founded SpaceX to advance space exploration. I am also the CEO and product architect of Tesla, where I have been the majority shareholder since 2004. My other ventures include Neuralink, The Boring Company, and xAI.</p>
     </div>
   )
 }
