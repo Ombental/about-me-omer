@@ -20,3 +20,11 @@ To get started with this project, follow these steps:
 *   **`package.json`**: Defines the project's dependencies and scripts.
 *   **`vite.config.ts`**: Configuration file for Vite.
 *   **`tailwind.config.js`**: Configuration file for Tailwind CSS.
+
+## Best Practices
+
+*   **Follow the existing coding style:** Keep the code consistent with the existing style.
+*   **Write clear and concise commit messages:** A good commit message should explain the "what" and "why" of the change.
+*   **Keep pull requests small and focused:** Each pull request should address a single concern.
+*   **Update dependencies regularly:** Keep the project's dependencies up to date to avoid security vulnerabilities and bugs.
+
