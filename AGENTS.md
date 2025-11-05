@@ -27,3 +27,4 @@ To get started with this project, follow these steps:
 *   **Write clear and concise commit messages:** A good commit message should explain the "what" and "why" of the change.
 *   **Keep pull requests small and focused:** Each pull request should address a single concern.
 *   **Update dependencies regularly:** Keep the project's dependencies up to date to avoid security vulnerabilities and bugs.
+
