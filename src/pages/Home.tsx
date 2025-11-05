@@ -1,21 +1,21 @@
 function Home() {
   return (
-    <>
+    <div className="text-center">
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">About Me</h2>
+        <h2 className="text-3xl font-bold mb-4">Engineer, Entrepreneur, Explorer</h2>
         <p className="text-lg leading-relaxed">
-          I am a South African-born entrepreneur known for my significant contributions to technology and space exploration, as well as my involvement in electric vehicles. I co-founded Zip2, an online content publishing company, and later gained prominence as a key figure in the development of PayPal.
+          I build companies that push the boundaries of technology, from sustainable energy and electric vehicles to space exploration and artificial intelligence.
         </p>
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-4">My Ventures</h2>
+        <h2 className="text-3xl font-bold mb-4">My Mission</h2>
         <p className="text-lg leading-relaxed">
-          I am the CEO and founder of SpaceX, which has revolutionized space travel, and the driving force behind Tesla, Inc., which focuses on electric vehicles and renewable energy solutions. I have also initiated several innovative projects, including Neuralink, aimed at developing brain-computer interface technologies, and acquired Twitter, now rebranded as X.
+          My goal is to make humanity a multi-planetary species and accelerate the world's transition to sustainable energy.
         </p>
       </section>
-    </>
-  )
+    </div>
+  );
 }
 
-export default Home
+export default Home;
