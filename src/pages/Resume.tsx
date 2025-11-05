@@ -1,12 +1,31 @@
 function Resume() {
   return (
-    <div className="max-w-3xl mx-auto p-8">
-      <h1 className="text-4xl font-bold mb-8">Resume</h1>
-      <p className="mb-4">I am a businessman and entrepreneur known for my leadership of Tesla, SpaceX, and X (formerly Twitter).</p>
-      <p className="mb-4">I co-founded Zip2 in 1995, an online business directory, which was later sold to Compaq. I then co-founded X.com, which merged with Confinity to form PayPal and was subsequently acquired by eBay.</p>
-      <p className="mb-4">In 2002, I founded SpaceX to advance space exploration. I am also the CEO and product architect of Tesla, where I have been the majority shareholder since 2004. My other ventures include Neuralink, The Boring Company, and xAI.</p>
+    <div className="text-center">
+      <h1 className="text-4xl font-bold mb-8">Key Ventures</h1>
+      <ul className="list-none space-y-4">
+        <li>
+          <h2 className="text-2xl font-semibold">SpaceX</h2>
+          <p>Revolutionizing space technology to make humanity multi-planetary.</p>
+        </li>
+        <li>
+          <h2 className="text-2xl font-semibold">Tesla</h2>
+          <p>Accelerating the world's transition to sustainable energy.</p>
+        </li>
+        <li>
+          <h2 className="text-2xl font-semibold">Neuralink</h2>
+          <p>Developing ultra-high bandwidth brain-machine interfaces.</p>
+        </li>
+        <li>
+          <h2 className="text-2xl font-semibold">The Boring Company</h2>
+          <p>Creating low-cost, high-speed tunnels to alleviate urban traffic.</p>
+        </li>
+         <li>
+          <h2 className="text-2xl font-semibold">X</h2>
+          <p>The everything app.</p>
+        </li>
+      </ul>
     </div>
-  )
+  );
 }
 
-export default Resume
+export default Resume;

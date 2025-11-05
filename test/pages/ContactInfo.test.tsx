@@ -3,8 +3,8 @@ import { render, screen } from '@testing-library/react';
 import ContactInfo from '../../src/pages/ContactInfo';
 
 describe('ContactInfo', () => {
-  it('renders the Contact Info heading', () => {
+  it('renders the Contact heading', () => {
     render(<ContactInfo />);
-    expect(screen.getByText('Contact Info')).toBeTruthy();
+    expect(screen.getByText('Contact')).toBeTruthy();
   });
 });
