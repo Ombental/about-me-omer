@@ -5,6 +5,6 @@ import ContactInfo from '../../src/pages/ContactInfo';
 describe('ContactInfo', () => {
   it('renders the Contact heading', () => {
     render(<ContactInfo />);
-    expect(screen.getByText('Contact')).toBeTruthy();
+    expect(screen.getByText("Contact")).toBeTruthy();
   });
 });

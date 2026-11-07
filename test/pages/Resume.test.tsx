@@ -3,8 +3,8 @@ import { render, screen } from '@testing-library/react';
 import Resume from '../../src/pages/Resume';
 
 describe('Resume', () => {
-  it('renders the Key Ventures heading', () => {
+  it('renders the What I Work With heading', () => {
     render(<Resume />);
-    expect(screen.getByText('Key Ventures')).toBeTruthy();
+    expect(screen.getByText('What I Work With')).toBeTruthy();
   });
 });

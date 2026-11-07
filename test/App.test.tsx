@@ -10,7 +10,7 @@ describe('App', () => {
         <App />
       </BrowserRouter>
     );
-    expect(screen.getByRole('img', { name: /x logo/i })).toBeTruthy();
+    expect(screen.getByRole('img', { name: /omer bental logo/i })).toBeTruthy();
   });
 
   it('renders navigation links', () => {

@@ -5,6 +5,6 @@ import Home from '../../src/pages/Home';
 describe('Home', () => {
   it('renders the main heading', () => {
     render(<Home />);
-    expect(screen.getByText('Engineer, Entrepreneur, Explorer')).toBeTruthy();
+    expect(screen.getByText(/Hi, I'm Omer/)).toBeTruthy();
   });
 });
